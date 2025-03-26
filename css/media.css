@@ -1,0 +1,134 @@
+@media(max-width: 1225px) {
+
+    .clients__header {
+        margin-bottom: 16px;
+    }
+
+    .table__cell {
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .table__header:nth-child(2) {
+        width: 20%;
+    }
+
+    .table__header:nth-child(3) {
+        width: 13%;
+    }
+
+    .table__header:nth-child(4) {
+        width: 12%;
+    }
+
+    .table__header:nth-child(5) {
+        width: 12%;
+    }
+
+    .table__header-wrapper {
+        display: inline-block;
+        max-width: 132px;
+    }
+
+    .clients__loading-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .table__button:not(:last-child) {
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 1005px) {
+
+    .table__header:nth-child(3) {
+        width: 10%;
+    }
+
+    .table__header:nth-child(4) {
+        width: 10%;
+    }
+
+    .table__header:nth-child(5) {
+        width: 13%;
+    }
+
+    .table__data-big {
+        padding-left: 0;
+    }
+
+    .table__data-time {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 890px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .header__container {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .header__logo {
+        max-width: 24px
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .clients__header {
+        margin-bottom: 10px;
+        padding-top: 32px;
+        font-size: 18px;
+    }
+
+    .clients__container {
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .table {
+        width: 870px;
+    }
+
+    .clients__container::-webkit-scrollbar {
+        width: 0;
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal__box {
+        width: 300px;
+    }
+
+    .modal__id {
+        display: inline-block;
+        padding-left: 0;
+        padding-top: 5px;
+    }
+
+    .form__contact-input {
+        width: 95px;
+    }
+
+
+}
